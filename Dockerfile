@@ -1,5 +1,5 @@
-# Step 1: Pulls a simple ubuntu image with node 8 installed in it
-FROM node:8
+# Step 1: Pulls a simple ubuntu image with node 10 installed in it
+FROM node:10
 
 # Step 2: Make a new directory called "src"
 RUN mkdir /app
